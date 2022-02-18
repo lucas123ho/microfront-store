@@ -1,8 +1,8 @@
 import React from "react";
-import { useGlobalState } from "../../../lib/useGlobalState";
+import { useSharedState } from "../../../lib/useSharedState";
 
 export const MicrofrontB = () => {
-    const [message] = useGlobalState("message");
+    const [message] = useSharedState("message");
 
     return (
         <>

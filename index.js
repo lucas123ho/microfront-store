@@ -1,3 +1,3 @@
-import { useGlobalState } from "./lib/useGlobalState";
+import { useSharedState } from "./lib/useSharedState";
 
-export { useGlobalState };
+export { useSharedState };
