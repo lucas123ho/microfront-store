@@ -1,6 +1,6 @@
 {
     "name": "microfront-store",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A utility package to share states between multiples micro-frontends",
     "main": "index.js",
     "keywords": [
