@@ -3,6 +3,17 @@ A utility package to share states between multiples micro-frontends
 
 ---
 
+### Install
+```sh
+npm i microfront-store
+```
+
+```sh
+yarn add microfront-store
+```
+
+---
+
 ### Example
 Host
 ```js
