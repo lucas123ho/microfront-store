@@ -1,13 +1,20 @@
 import React from "react";
-import { useSharedState } from "../../../lib/useSharedState";
+import { useSharedState } from "../../../";
 
 export const MicrofrontB = () => {
-    const [message] = useSharedState("message");
+    const [sharedState1] = useSharedState("shared_state_name_1");
+    const [sharedState2] = useSharedState("shared_state_name_2", {
+        id: null,
+        name: "",
+    });
 
     return (
         <>
-            <span>[Microfront B]</span>
-            <h3>Message: {message}</h3>
+            <h1>Microfront B</h1>
+            <p>Shared state 1: {sharedState1}</p>
+            <p>
+                Shared state 2: #{sharedState2.id} - {sharedState2?.name}
+            </p>
         </>
     );
 };
