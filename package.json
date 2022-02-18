@@ -17,6 +17,10 @@
     "dependencies": {
         "react": "^17.0.2"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lucas123ho/microfront-store"
+    },
     "devDependencies": {
         "@babel/core": "^7.12.3",
         "@babel/plugin-transform-runtime": "^7.12.1",
